@@ -3,14 +3,14 @@ var cat ,cat_steady__Img,cat_running_Img,cat_collided_Img;
 var mouse,mouse_steady_Img,mouse_enjoying_Img,mouse_collided_Img;
 
 function preload() {
-    garden=loadImage("images/garden.png");
-    cat_steady_Img=loadAnimation("images/cat1.png");
-    cat_running_Img=loadAnimation("images/cat2.png","images/cat3.png");
-    cat_collided_Img=loadAnimation("images/cat4.png");
+    garden=loadImage("garden.png");
+    cat_steady_Img=loadAnimation("cat1.png");
+    cat_running_Img=loadAnimation("cat2.png","cat3.png");
+    cat_collided_Img=loadAnimation("cat4.png");
 
-    mouse_steady_Img=loadAnimation("images/mouse1.png");
-    mouse_enjoying_Img=loadAnimation("images/mouse2.png","images/mouse3.png");
-    mouse_collided_Img=loadAnimation("images/mouse4.png");
+    mouse_steady_Img=loadAnimation("mouse1.png");
+    mouse_enjoying_Img=loadAnimation("mouse2.png","mouse3.png");
+    mouse_collided_Img=loadAnimation("mouse4.png");
 }
 
 function setup(){
